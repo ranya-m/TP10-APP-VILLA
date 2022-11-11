@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+:root {
+  --primary-color: #ff6b81;
+  --primary-hv-color: #ed6176;
+  --secondary-color: #080809;
+  --email-color: #394653;
+}
+*{
+  list-style: none;
+}
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.nav-link {
+  font-weight: 700 !important;
+  padding: 1.3rem !important;
+}
+.features {
+  color: var(--primary-color)!important;
+}
+.btn-primary,
+.btn-outline-primary {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: var(--primary-color);
+  --bs-btn-border-color: var(--primary-color);
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: var(--primary-hv-color);
+  --bs-btn-hover-border-color: var(--primary-hv-color);
+  --bs-btn-focus-shadow-rgb: 49, 132, 253;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: var(--primary-hv-color);
+  --bs-btn-active-border-color: var(--primary-hv-color);
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: var(--primary-color);
+  --bs-btn-disabled-border-color: var(--primary-color);
+}
+
+.btn-outline-primary {
+  --bs-gradient: none;
+  --bs-btn-border-color: white;
+  --bs-btn-hover-border-color: white;
+}
+
+.btn-light {
+  color: var(--primary-color) !important;
+}
+
+.bg-primary {
+  background-color: var(--primary-color) !important;
+  color: white;
+}
